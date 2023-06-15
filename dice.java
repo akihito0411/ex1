@@ -16,5 +16,10 @@ public class dice{
 	System.out.println("Die 1:" + ran[0]);
 	System.out.println("Die 2:" + ran[1]);
 	System.out.println("Total value:" + (ran[0] + ran[1]));
+
+	if(total > 7)
+	    System.out.println("won !");
+	else
+	    System.out.println("lost !");
     }
 }
